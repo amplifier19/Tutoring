@@ -17,7 +17,7 @@ start:
 	lw $s1,($s0)
 	add $t1,$t1,$s1
 	
-	# 4 bytes giati einai akearoi ta stoixeia toy pinaka arr
+	# 4 bytes γιατί είναι ακέραιοι αριθοί τα στοιχεία του arr
 	addi $s0,$s0,4   
 	addi $t3,$t3,-1
 	j start 
