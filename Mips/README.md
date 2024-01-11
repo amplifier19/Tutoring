@@ -228,11 +228,10 @@ j loop
       # Τύπωση της τιμής του μετρητή $t2
 exit: la $t3,$t2
       lw $a0,($t3)
-	    li $v0,1
-	    syscall
+      li $v0,1
+      syscall
 
       # Τερματισμός Προγράμματος
-	    li $v0,10
-	    syscall
-
+      li $v0,10
+      syscall
 ```
